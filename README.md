@@ -1,4 +1,4 @@
 # MRDR-DL
-Codes for "Enhanced Doubly Robust Learning for Debiasing Post-click Conversion Rate Estimation" in SIGIR'20
+TensorFlow Implementation of "Enhanced Doubly Robust Learning for Debiasing Post-click Conversion Rate Estimation" in SIGIR 2021.
 
 Coming soon.
