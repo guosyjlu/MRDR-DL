@@ -14,8 +14,8 @@ file.close()
 
 embedding_size = 64
 batch_size = 1024
-for l2_reg_lambda_il in [1e-5, 1e-4, 1e-3, 1e-2, 1e-1, 1]:
-    for l2_reg_lambda in [1e-5, 1e-4, 1e-3, 1e-2, 1e-1, 1]:
+for l2_reg_lambda_il in [1e-3]:
+    for l2_reg_lambda in [1e-4]:
         print(l2_reg_lambda, l2_reg_lambda_il)
         mf = LMF_DR(
             user_num=obj.user_num,
